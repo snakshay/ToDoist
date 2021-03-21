@@ -1,0 +1,20 @@
+.Footer {
+	margin-left: 50px;
+}
+.name {
+	font-size: 30px;
+}
+.info {
+	font-size: 20px;
+}
+.spacing {
+	margin-left: 40px;
+	font-size: 25px;
+}
+.last {
+	background-color: #f2ece7;
+	height: 40px;
+	text-align: center;
+	align-self: center;
+}
+/* F2ECE7 */

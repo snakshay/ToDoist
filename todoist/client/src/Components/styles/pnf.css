@@ -1,0 +1,7 @@
+.not-found {
+	height: 100vh;
+	background-color: white;
+	background-image: url('https://www.argildx.com/wp-content/uploads/2017/06/Is-a-Misconfigured-%E2%80%9CPage-Not-Found%E2%80%9D-Jeopardizing-Your-Website.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}

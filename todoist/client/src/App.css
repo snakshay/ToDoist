@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+	background-color: #121212;
+	color: white;
+}
+.grey {
+	background-color: white;
+}
+.btn {
+	width: 100%;
+	height: 45px;
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #49274a;
+	color: #49274a;
+	font-size: medium;
+	transition: 0.5s;
+}
+.btn-container {
+	width: 150px;
+	text-align: center;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.disabled {
+	background-color: transparent;
+	cursor: not-allowed;
+	font-size: small;
+}
+.hover:hover {
+	transition: 0.9s;
+	border-color: red;
+	background-color: #49274a;
+	color: white;
+}
+.hover::selection {
+	background-color: #49274a;
+	color: white;
+}
+.error {
+	color: red;
+	font-size: smaller;
+	margin-left: 15px;
+}
+.border {
+	border: 2px solid purple;
+	border-radius: 15px;
+}
+.border:hover {
+	border-color: #49274a;
+}
+.border:active {
+	border-color: #49274a;
+}
+.btnDark {
+	width: 100%;
+	height: 45px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #49274a;
+	color: whitesmoke;
+	background-color: #49274a;
+	font-size: medium;
+	transition: 0.5s;
+}
+.btnDark:hover {
+	background-color: transparent;
+	color: black;
+	border: 1px solid red;
+}

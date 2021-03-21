@@ -1,0 +1,23 @@
+.link {
+	color: cornsilk;
+	text-decoration: none;
+	float: right;
+}
+.link:hover {
+	color: white;
+	border-bottom: 2px solid red;
+	padding-bottom: 3px;
+}
+.Navbar {
+	/* background-color: #242526; */
+	background-color: black;
+}
+.linkElement {
+	padding-right: 5%;
+}
+.right {
+	float: right;
+	color: red;
+
+	text-align: right;
+}

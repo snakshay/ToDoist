@@ -1,0 +1,154 @@
+.navlinks {
+	justify-content: space-around;
+	list-style: none;
+	display: flex;
+	float: right;
+	width: 50%;
+	font-size: 24px;
+}
+
+.logo {
+	display: flex;
+	font-size: 32px;
+}
+.navelement {
+	text-decoration: none;
+	color: blanchedalmond;
+}
+
+nav {
+	min-height: 8vh;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	align-items: center;
+	width: 100%;
+}
+
+.hamburgerToggle {
+	cursor: pointer;
+	color: #49274a;
+	display: none;
+}
+
+@media screen and (max-width: 850px) {
+	body {
+		overflow-x: hidden;
+	}
+	.hamburgerToggle {
+		display: flex;
+	}
+	.navlinks {
+		position: fixed;
+		right: 0px;
+		display: block;
+		/* flex-direction: column; */
+		height: 92vh;
+		align-items: center;
+		width: 50%;
+		background-color: #daeca7;
+		color: #f8fee7;
+		transform: translateX(100%);
+		transition: transform 0.65s ease-in;
+		top: 8vh;
+	}
+	.active {
+		transform: translateX(0%);
+	}
+}
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.tab {
+	height: 100vh;
+	background-color: #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab-container {
+	max-width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.tab-nav {
+	display: flex;
+	width: fit-content;
+	margin: 0 auto;
+	list-style: none;
+	border-bottom: 1px solid #999;
+	position: relative;
+}
+
+.tab-nav li {
+	padding: 20px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.tab-nav li.active {
+	color: #5764ac;
+	transform: scale(1.2);
+}
+
+.tab-nav li:not(:last-child) {
+	margin-right: 70px;
+}
+
+.tab-body {
+	margin-top: 100px;
+	display: none;
+	align-items: center;
+	animation: fade 0.8s;
+}
+
+.tab-body.active {
+	display: flex;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.tab-body .tab-col-left,
+.tab-body .tab-col-right {
+	flex: 1;
+}
+
+.tab-body .tab-col-right h2 {
+	font-size: 40px;
+	color: #5764ac;
+	letter-spacing: 1px;
+}
+
+.tab-body .tab-col-right p {
+	line-height: 1.8;
+	margin: 20px 0 60px;
+	color: #636363;
+}
+
+.tab-body .tab-col-right .btn {
+	padding: 15px 45px;
+	background-color: #5764ac;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+} */
